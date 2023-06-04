@@ -14,45 +14,52 @@ body {
 }
 
 .wrapper {
-  margin: 0 auto;
-  width: 60%;
-  padding-bottom: 40px;
+  margin: 0% auto;
+  width: 35%;
+  background-color: rgb(255, 255, 255);
 }
 
 #content {
-  padding: 20px;
   background: rgba(255,255,255,.85);
 }
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color: #000000;
 }
 
 h1 {
   font-size: 3.5em;
-  margin-bottom: 0;
+  margin-bottom: 0%;
+  align-items: center;
+  padding: 3%;
 }
 
 h2 {
   font-size: 1.5em;
-  margin-top: .5em;
+  margin-top: 0;
+  align-items: center;
+  padding: 3%;
 }
 
 h3 {
   font-family: 'Gabriela', serif;
   font-size: 1.5em;
   margin-top: .5em;
+  padding: 3%;
 }
 
 img {
   max-width: 100%;
   width: 100%;
-  height: auto;
+  height: 50%;
+  margin: 0 auto;
 }
 
 p {
   font-size: 1em;
+  padding: 3%;
+  
 }
 
 a {
@@ -69,7 +76,25 @@ a:hover {
     width: 80%;
   }
 }
+.centered-image {
+  display: inline-flexbox;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 42%;
+}
 
+.centered-image img {
+  width: 95%; 
+  height: 34%;
+  margin: 0% auto;
+  padding: 3%;
+}
+.header{
+  text-align: center;
+  margin: 1% auto;
+  width: 95%;
+}
 @media only screen and (max-width: 784px) {
   body {
     font-size: 120%;
